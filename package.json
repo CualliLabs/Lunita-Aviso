@@ -1,0 +1,19 @@
+{
+  "name": "lunita-aviso",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "@tailwindcss/cli -i ./css/input.css -o ./css/output.css",
+    "dev": "@tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}

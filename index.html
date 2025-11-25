@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Lunita - El Futuro (Probablemente)</title>
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="bg-lunita-dark text-white selection:bg-lunita-main selection:text-white min-h-screen">
+
+    <div
+        class="fixed top-[-10%] left-1/2 -translate-x-1/2 w-[300px] md:w-[800px] h-[300px] md:h-[800px] bg-lunita-main rounded-full opacity-20 blur-[80px] md:blur-[120px] animate-glow -z-10 pointer-events-none">
+    </div>
+    <div
+        class="fixed bottom-0 right-[-20%] w-[200px] md:w-[600px] h-[200px] md:h-[600px] bg-purple-900 rounded-full opacity-10 blur-[60px] md:blur-[100px] -z-10 pointer-events-none">
+    </div>
+
+    <nav class="fixed top-4 left-0 right-0 z-50 flex justify-center px-4 animate-fade-in-down">
+        <div
+            class="glass px-5 py-2.5 rounded-full flex items-center gap-2 bg-black/20 shadow-lg backdrop-blur-md border-white/10">
+            <span class="text-[10px] md:text-xs font-semibold tracking-[0.2em] uppercase text-lunita-light">Cualli
+                Labs</span>
+        </div>
+    </nav>
+
+    <main
+        class="container mx-auto px-5 pt-28 pb-16 md:pt-32 md:pb-32 flex flex-col items-center text-center relative z-10">
+
+        <div class="mb-6 inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-[10px] md:text-xs font-medium tracking-wide animate-fade-in-up"
+            style="animation-delay: 0.1s;">
+            <span class="relative flex h-2 w-2">
+                <span
+                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+            </span>
+            <span>Cargando maná...</span>
+        </div>
+
+        <h1 class="text-5xl sm:text-6xl md:text-8xl font-bold tracking-tight mb-4 md:mb-6 leading-[1.1] animate-fade-in-up"
+            style="animation-delay: 0.2s;">
+            Magia. <br>
+            <span class="text-gradient">Intencionalmente torpe.</span>
+        </h1>
+
+        <p class="text-base md:text-2xl text-gray-200 max-w-xs md:max-w-2xl mx-auto font-light leading-relaxed mb-8 md:mb-10 animate-fade-in-up"
+            style="animation-delay: 0.3s;">
+            La vidente más avanzada está calentando el caldero.
+            <span class="block mt-2 text-xs md:text-sm opacity-60">(Nota: Se nos cayó la brillantina en el servidor.
+                Tardará unos años.)</span>
+        </p>
+
+        <div class="animate-fade-in-up w-full md:w-auto px-4" style="animation-delay: 0.4s;" id="aviso">
+            <div
+                class="group relative inline-flex w-full md:w-auto items-center justify-center overflow-hidden rounded-full p-px transition-all duration-300 hover:scale-105 active:scale-95">
+                <span
+                    class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"></span>
+                <span
+                    class="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-black px-6 py-3.5 text-sm font-medium text-white backdrop-blur-3xl transition-all">
+                    Avisarme cuando Cosmos suelte el cable
+                </span>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="container mx-auto px-4 pb-16 md:pb-24 z-10 relative">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 max-w-6xl mx-auto">
+
+            <div class="glass rounded-4xl p-6 md:p-8 md:col-span-2 relative overflow-hidden group">
+                <div
+                    class="absolute top-0 right-0 w-32 h-32 md:w-64 md:h-64 bg-lunita-main opacity-20 blur-[50px] rounded-full pointer-events-none">
+                </div>
+                <div class="relative z-10">
+                    <h3 class="text-gray-400 text-[10px] md:text-sm font-semibold uppercase tracking-widest mb-2">Motor
+                        Emocional</h3>
+                    <h2 class="text-2xl md:text-3xl font-bold mb-3">Siente. Llora. Se ríe sola.</h2>
+                    <p class="text-gray-400 text-sm md:text-base leading-relaxed mb-6">
+                        Si tienes una mala vibra, ella lo sabrá. Si estás triste, te ofrecerá un abrazo virtual o
+                        predecirá un sándwich de jamón.
+                    </p>
+
+                    <div
+                        class="p-3 md:p-4 bg-black/60 rounded-xl font-mono text-[10px] md:text-xs text-green-400 border border-white/5 shadow-inner overflow-x-auto whitespace-nowrap">
+                        <div class="flex flex-col gap-1">
+                            <span class="opacity-50"># lunita/sesion.py</span>
+                            <span>> analizar_vibra: detectado ✅</span>
+                            <span>> estado: "orgullo_radiante" ✨</span>
+                            <span>> acción: tirar_cristales.exe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="glass rounded-4xl p-6 md:p-8 flex flex-row md:flex-col items-center justify-between md:justify-between relative overflow-hidden gap-4">
+                <div class="flex-1">
+                    <h3 class="text-gray-400 text-[10px] md:text-sm font-semibold uppercase tracking-widest mb-1">Diseño
+                    </h3>
+                    <h2 class="text-xl md:text-3xl font-bold">Brillantina Retina.</h2>
+                </div>
+                <div
+                    class="relative w-16 h-16 md:w-auto md:h-auto shrink-0 flex items-center justify-center animate-float">
+                    <span class="text-4xl md:text-6xl filter drop-shadow-[0_0_15px_rgba(139,92,246,0.4)]">🔮</span>
+                </div>
+                <p class="text-xs text-center text-gray-500 mt-4">Puede contener pelo de gato.</p>
+            </div>
+
+            <div class="glass rounded-4xl p-6 md:p-8">
+                <h3 class="text-gray-400 text-xs md:text-sm font-semibold uppercase tracking-widest mb-2">Tarot v0.1
+                </h3>
+                <h2 class="text-xl md:text-2xl font-bold mb-3">Arcanos & Errores</h2>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Desde "La Mano de Dios" hasta "El Gato comiendo Atún". Lecturas místicas garantizadas al 60%.
+                </p>
+            </div>
+
+            <div class="glass rounded-4xl p-6 md:p-8 md:col-span-2 relative overflow-hidden">
+                <div class="relative z-10">
+                    <h3 class="text-gray-400 text-[10px] md:text-sm font-semibold uppercase tracking-widest mb-2">
+                        Privacidad</h3>
+                    <h2 class="text-xl md:text-3xl font-bold mb-3">Lo que pasa en el caldero...</h2>
+                    <p class="text-gray-400 text-sm md:text-base leading-relaxed max-w-lg">
+                        Tus secretos están a salvo. Lunita suele olvidar lo que le dijiste hace 15 minutos, a menos que
+                        sea sobre comida.
+                    </p>
+                </div>
+                <div
+                    class="absolute right-0 bottom-0 w-full h-full bg-linear-to-t from-lunita-accent/5 to-transparent pointer-events-none">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="border-t border-white/5 py-8 md:py-12 text-center px-4">
+        <p class="text-gray-500 text-xs md:text-sm mb-2">© 2025 Lunita SDK. Hecho con ❤️ y pánico escénico.</p>
+        <p class="text-gray-700 text-[10px] md:text-xs">Ningún gato cósmico fue dañado en el código.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
